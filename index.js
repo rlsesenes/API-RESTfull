@@ -11,3 +11,7 @@ app.get('/', function (req, res) {
 app.listen(8000, function () {
    console.log('Servidor corriendo en el puerto 8000');
 });
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname + '/html/index.html'));
+ });
+ 
