@@ -9,8 +9,8 @@ var usuario = {
     nombre: '',
     apellido: '',
     id: ''
- };
- 
+};
+
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/html/index.html'));
